@@ -1,19 +1,14 @@
-'''Module Matematika'''
-
-
-def tambah(*args):
+def add(*args):
     hasil = 0
     for data in args:
         hasil += data
+
     return hasil
 
 
-def kali(*args):
+def k(*args):
     hasil = 1
     for data in args:
         hasil *= data
+
     return hasil
-
-
-def pangkat(n):
-    return lambda angka: angka**n
